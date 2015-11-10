@@ -3,7 +3,15 @@ PHPUnit Fakerino dataProvider
 
 ### Installation
 
-`composer require fakerino/phpunit-ext`
+`composer require fakerino/phpunit-ext:'1.0RC1'`
+
+then in your `phpunit.xml.dist` add:
+```
+<listeners>
+        <listener class='FakerinoPhpUnitListener'
+                        file='vendor/fakerino/phpunit-ext/src/Fakerino/PHPUnit/FakerinoPhpUnitListener.php'/>
+</listeners>
+```
 
 ### Usage example
 ```
