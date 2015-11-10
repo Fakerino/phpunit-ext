@@ -1,4 +1,17 @@
 {
+    "name": "fakerino/phpunit-ext",
+    "description": "PHPUnit Fakerino extension to use fake data inside PHPUnit tests",
+    "keywords": ["PHPUnit", "test", "fake", "generator", "data", "seed", "fixtures"],
+    "homepage": "http://github.com/niklongstone/fakerino",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicola Pietroluongo",
+            "email": "nik.longstone@gmail.com",
+            "homepage": "http://nicolapietroluongo.com"
+        }
+    ],
     "require": {
         "phpunit/phpunit": "^5.0",
         "fakerino/fakerino": "^0.8.1"
