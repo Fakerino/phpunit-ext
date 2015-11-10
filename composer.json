@@ -1,0 +1,19 @@
+{
+    "require": {
+        "phpunit/phpunit": "^5.0",
+        "fakerino/fakerino": "^0.8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FakerinoPhpUnit\\": "src/Fakerino/PHPUnit/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FakerinoDataProvider\\Test\\": "tests/FakerinoDataProvider/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
