@@ -23,7 +23,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "FakerinoDataProvider\\Test\\": "tests/FakerinoDataProvider/"
+            "FakerinoPhpUnit\\Test\\": "tests/Fakerino/"
         }
     },
     "config": {
