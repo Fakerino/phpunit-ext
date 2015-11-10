@@ -12,7 +12,6 @@ PHPUnit Fakerino dataProvider
      */
     public function testSimpleProvider($name, $surname, $intvalue, $date)
     {
-        var_dump($date);
         $this->assertInternalType("string", $name);
         $this->assertInternalType("string", $surname);
         $this->assertInternalType("integer", $intvalue);

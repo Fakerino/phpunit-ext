@@ -7,7 +7,6 @@ class FakerinoPhpUnitListenerTest extends \PHPUnit_Framework_TestCase
      */
     public function testSimpleProvider($name, $surname, $intvalue, $date)
     {
-        var_dump($date);
         $this->assertInternalType("string", $name);
         $this->assertInternalType("string", $surname);
         $this->assertInternalType("integer", $intvalue);
